@@ -9,6 +9,17 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
         return None
+    
+    '''
+    solução mais otimizada
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        numToIndex = {}
+        for i in range(len(nums)):
+            if target - nums[i] in numToIndex:
+                return [numToIndex[target - nums[i]], i]
+            numToIndex[nums[i]] = i
+        return []
+    '''
 
 print(Solution().twoSum([2,7,11,15], 9))
 print(Solution().twoSum([3,2,4], 6))
