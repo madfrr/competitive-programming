@@ -1,5 +1,7 @@
 # Competitive programming
-Objetivo desse repositório é aprender técnicas de programação competitiva com as linguagens C++, Go e Python
+The main goal of this repository is to display my new competitive programming techniques. I'll try to code in C++, Python and Go.
 
-## Livros utilizados
+https://neetcode.io/roadmap
+
+## Books
 Guide to Competitive Programming - Antti Laaksonen

@@ -1,6 +1,21 @@
 # Prerequisites
 *.d
 
+__pycache__/
+*/.vscode
+env
+.env
+logs
+.pytest_cache
+venv
+.python-version
+.vscode
+*.ipynb
+loguru.log
+.ruff_cache
+.git
+
+
 # Compiled Object files
 *.slo
 *.lo
