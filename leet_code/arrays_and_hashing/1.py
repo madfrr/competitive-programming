@@ -1,5 +1,5 @@
 #1. Two Sum - https://leetcode.com/problems/two-sum/description/ 
-# Tempo - 20h42
+# Tempo - 20h52
 from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
